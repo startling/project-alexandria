@@ -25,6 +25,7 @@ We use it to structure our efforts and to have the proposed solution approaches 
 We need help from a lot of different people.
 
 You can find us
+
 - on our mailing list: http://groups.google.com/group/prj-alexandria
 - in IRC: #ProjectAlexandria on irc.freenode.net
 
@@ -33,6 +34,7 @@ Currently we are discussing technical solutions to the discovered problems.
 This repo contains the main ideas (ideally with examples) to have everything in one central place.
 
 Every subfolder containing a solution proposal shall contain a README with
+
 - a short abstract
 - a list of pros and cons of the solution
 
