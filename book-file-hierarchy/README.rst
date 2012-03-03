@@ -16,7 +16,7 @@ As a project, we should aim to include these three aspects of a text:
 * **Machine- and human-readable metadata**, including general text and author
   data, text history, and licensing information.
    
-* Nicely-formatted **output** files based on the source text, or methods and
+* Nicely-formatted **output files** based on the source text, or methods and
   tools to produce them. These may or may not be included in source
   distributions of a text - they don't belong in Git repositories, but they
   might be included in compressed archives of the source.
