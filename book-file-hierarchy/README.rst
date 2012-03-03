@@ -26,7 +26,7 @@ And so I suggest a file hierarchy similar to the one given below::
 
     example-book
     ├── .gitignore
-    ├── README.rst
+    ├── readme.rst
     ├── example-book.rst
     ├── license.txt
     ├── metadata.yml
@@ -38,3 +38,33 @@ And so I suggest a file hierarchy similar to the one given below::
         ├── 001.png
         └── 002.flac
 
+* ``example-book`` is a directory with the name of the given text
+
+  * ``.gitignore`` should be set to ignore the contents of the ``output``
+    directory
+
+  * ``readme.rst`` should be a human-readable introduction to the text, perhaps
+    with a note describing Project Alexandria. This will make the books a
+    little nicer for Github, too.
+
+    Note that the file extension choice is arbitrary here; ``.markdown`` or
+    ``.txt`` would do just as well, for example.
+
+  * ``example-book.rst`` is the source file of the text in one of the master
+    formats. The choice of master format and file extension is beyond the
+    scope of this proposal; restructuredtext is used as an example here.
+
+  * ``license.txt`` can contain licensing information; I'm not sure what we
+    need or want for texts borrowed from Project Gutenberg. 
+
+  * ``metadata.yml`` should be a machine-readable (and, ideally,
+    human-writable) metadata file containing fields like "author" and "title".
+    YAML seems like the best idea here, and I have a feeling this won't be as
+    contentious as choice of master format.
+
+  * ``output`` is a directory of generated files, organized in subdirectories
+    by their formats. This can be left out for source-only distributions and in
+    Git repositories, but it's probably a good idea to have Git ignore it in
+    order to keep version control directories and commit logs clean.
+
+  * ``resources``: (TODO)
