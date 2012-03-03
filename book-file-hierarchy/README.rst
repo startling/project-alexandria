@@ -35,8 +35,8 @@ And so I suggest a file hierarchy like this::
     │   ├── pdf
     │   └── et cetera
     └── resources
-        ├── 001.png
-        └── 002.flac
+        ├── 001_image_one.png
+        └── 002_my_song.flac
 
 * ``example-book`` is a directory with the name of the given text
 
@@ -68,11 +68,6 @@ And so I suggest a file hierarchy like this::
     available; ideal sizes differ across devices and resizing can be done when
     texts are being reformated from the master format.
     
-.. TODO: naming scheme for binary files; I have "001.png" and "002.flac"
-    up there as examples, but that's silly and obtuse. Maybe something
-    like "001_first_image.png" (that is, a number followed by an optional
-    title) would be best?
-
 .. TODO: rationale; why should we have things this way?
 
 .. TODO: specify metadata fields. maybe not here.
