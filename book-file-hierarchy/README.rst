@@ -8,10 +8,10 @@ Book File Hierarchy Proposal
 
 As a project, we should aim to include these three aspects of a text:
 
-* The **pure content**, including plain text, raw images, and significant
-  formatting details, depending on the genre of the work. E.g, in poetry and
-  drama, line breaks are important and should be considered part of the work,
-  whereas in most prose linebreaks are artifacts of the typesetting process.
+* The **pure content**, including the text, raw images, and significant
+  formatting details. E.g, in poetry and drama, line breaks are important and
+  should be considered part of the work, whereas in most prose linebreaks are
+  usually continued artifacts of the typesetting process.
 
 * **Machine- and human-readable metadata**, including general text and author
   data, text history, and licensing information.
