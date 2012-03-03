@@ -33,7 +33,8 @@ And so I suggest a file hierarchy similar to the one given below::
     ├── output
     │   ├── ePub
     │   ├── html
-    │   └── pdf
+    │   ├── pdf
+    │   └── et cetera
     └── resources
         ├── 001.png
         └── 002.flac
