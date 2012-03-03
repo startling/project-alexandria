@@ -19,10 +19,10 @@ As a project, we should aim to include these three aspects of a text:
 * Nicely-formatted **output files** based on the source text, or methods and
   tools to produce them. These may or may not be included in source
   distributions of a text - they don't belong in Git repositories, but they
-  might be included in compressed archives of the source.
+  might be included in places like downloadable compressed archives.
 
 
-And so I suggest a file hierarchy similar to the one given below::
+And so I suggest a file hierarchy like this::
 
     example-book
     ├── readme.rst
@@ -54,10 +54,9 @@ And so I suggest a file hierarchy similar to the one given below::
   * ``license.txt`` can contain licensing information; I'm not sure what we
     need or want for texts borrowed from Project Gutenberg. 
 
-  * ``metadata.yml`` should be a machine-readable (and, ideally,
-    human-writable) metadata file containing fields like "author" and "title".
-    YAML seems like the best idea here, and I have a feeling this won't be as
-    contentious as choice of master format.
+  * ``metadata.yml`` should be a machine-readable (and, ideally, human-readable
+    and -writable) metadata file containing fields like "author" and "title".
+    YAML seems like the best idea here.
 
   * ``output`` is a directory of generated files, organized in subdirectories
     by their formats. This can be left out for source-only distributions and in
