@@ -64,4 +64,7 @@ And so I suggest a file hierarchy similar to the one given below::
     Git repositories, but it's probably a good idea to have Git ignore it in
     order to keep version control directories and commit logs clean.
 
-  * ``resources``: (TODO)
+  * Binary content files should be contained in ``resources``. Ideally these
+    should be as close to lossless as possible. Images should be the largest
+    available; ideal sizes differ across devices and resizing can be done when
+    texts are being reformated from the master format.
