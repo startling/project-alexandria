@@ -4,7 +4,7 @@ Book File Hierarchy Proposal
 
     *Note*: This is a first draft of a book file hierarchy. You're welcome to
     complain about, critique, destroy, or update any of the sections herein.
-    Really. You can edit, fork, or otherwise co-opt it, too.
+    Really. Edit, fork, or otherwise co-opt it.
 
 As a project, we should aim to include these three aspects of a text:
 
