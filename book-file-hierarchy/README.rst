@@ -25,7 +25,6 @@ As a project, we should aim to include these three aspects of a text:
 And so I suggest a file hierarchy similar to the one given below::
 
     example-book
-    ├── .gitignore
     ├── readme.rst
     ├── example-book.rst
     ├── license.txt
@@ -40,9 +39,6 @@ And so I suggest a file hierarchy similar to the one given below::
         └── 002.flac
 
 * ``example-book`` is a directory with the name of the given text
-
-  * ``.gitignore`` should be set to ignore the contents of the ``output``
-    directory
 
   * ``readme.rst`` should be a human-readable introduction to the text, perhaps
     with a note describing Project Alexandria. This will make the books a
