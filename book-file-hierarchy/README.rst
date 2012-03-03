@@ -68,3 +68,16 @@ And so I suggest a file hierarchy similar to the one given below::
     should be as close to lossless as possible. Images should be the largest
     available; ideal sizes differ across devices and resizing can be done when
     texts are being reformated from the master format.
+    
+.. TODO: naming scheme for binary files; I have "001.png" and "002.flac"
+    up there as examples, but that's silly and obtuse. Maybe something
+    like "001_first_image.png" (that is, a number followed by an optional
+    title) would be best?
+
+.. TODO: rationale; why should we have things this way?
+
+.. TODO: specify metadata fields. maybe not here.
+
+.. TODO: separate files for chapters or one big file? Maybe you could have
+    multiple files but they need to be named sequentially so reformatting
+    scripts can ``cat`` them.
